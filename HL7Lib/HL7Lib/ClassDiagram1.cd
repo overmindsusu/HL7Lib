@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HL7Lib.abstractType">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAAAAAAAAEAAAAAAQAAAAEACAAAAAgAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.compositeType">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.primitiveType">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.ID">
+    <Position X="2" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.SI">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.TS">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.FT">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.TX">
+    <Position X="5.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.TN">
+    <Position X="3.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.TM">
+    <Position X="4.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.ST">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.NM">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <InheritanceLine Type="HL7Lib.primitiveType" ManuallyRouted="true">
+      <Path>
+        <Point X="7.25" Y="6.359" />
+        <Point X="7.25" Y="6.734" />
+        <Point X="11.25" Y="6.734" />
+        <Point X="11.25" Y="10.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.IS">
+    <Position X="11.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

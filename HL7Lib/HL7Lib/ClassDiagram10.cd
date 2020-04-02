@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HL7Lib.abstractFactory">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.messageFactory">
+    <Position X="4" Y="2.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="HL7Lib.messageFactory.enumMessages">
+        <TypeIdentifier>
+          <NewMemberFileName>abstractFactory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.segmentFactory">
+    <Position X="9.5" Y="2.75" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="HL7Lib.segmentFactory.enumSegments">
+        <TypeIdentifier>
+          <NewMemberFileName>abstractFactory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="HL7Lib.abstractFactory" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="1.821" />
+        <Point X="6.5" Y="2.375" />
+        <Point X="10.542" Y="2.375" />
+        <Point X="10.542" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.fieldFactory">
+    <Position X="0.5" Y="2.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="HL7Lib.fieldFactory.enumFields">
+        <TypeIdentifier>
+          <NewMemberFileName>abstractFactory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.primitiveFactory">
+    <Position X="6.5" Y="2.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="HL7Lib.primitiveFactory.enumPrimiteve">
+        <TypeIdentifier>
+          <NewMemberFileName>abstractFactory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

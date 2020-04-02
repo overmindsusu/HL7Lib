@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HL7Lib.abstractFactory" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.messageFactory" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.segmentFactory" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.fieldFactory" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.primitiveFactory" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>abstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.VID" Collapsed="true">
+    <Position X="70.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAEAAAAAAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.HD" Collapsed="true">
+    <Position X="77" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAGAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.CE" Collapsed="true">
+    <Position X="83.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAAAAAAAAAAAAAAAAAAACAAAAASAAAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.MSG" Collapsed="true">
+    <Position X="43.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.PT" Collapsed="true">
+    <Position X="47.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.EI" Collapsed="true">
+    <Position X="54.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAGAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.TS" Collapsed="true">
+    <Position X="61.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.ELD" Collapsed="true">
+    <Position X="65.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.ERL" Collapsed="true">
+    <Position X="72.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAEAAAAAAAAAAAABAAAAAAAAAEAAAAQAAAAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.CWE" Collapsed="true">
+    <Position X="79.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAEAAAAAAAAAAAAAgAAACCAAAASAAAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.XTN" Collapsed="true">
+    <Position X="86" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQQAAAAAAAAAAAgAAAAAAAKAAAAAQIgAAAAAgAIACA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.XCN" Collapsed="true">
+    <Position X="45.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAIAAgQAQAAACABAAgASACAAAEAAACBAAAAAQAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.CX" Collapsed="true">
+    <Position X="50" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAABAAgAAAAAAAEAAAAAAAAAAQAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.XPN" Collapsed="true">
+    <Position X="56.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAgQAAAAAAAAAAAASACAAAAAAACBAAAAAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.XAD" Collapsed="true">
+    <Position X="63.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAARAAAAIAAAAAAIAAIIAAEAAAAAAAAwAABA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.DLN" Collapsed="true">
+    <Position X="68" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.XON" Collapsed="true">
+    <Position X="74.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAQAAAIAAAIgAAAAAAAEAAAABAAABAQAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.PL" Collapsed="true">
+    <Position X="81.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAJABAAAAAAAAgCgBAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.FC" Collapsed="true">
+    <Position X="88.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>compositeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.ACK">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>compositeMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.A01">
+    <Position X="34.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAQAAAAQAAA=</HashCode>
+      <FileName>compositeMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.A02" Collapsed="true">
+    <Position X="36.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAQAAAAQAAA=</HashCode>
+      <FileName>compositeMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.A03" Collapsed="true">
+    <Position X="38.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAQAAAAQAAA=</HashCode>
+      <FileName>compositeMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.A04" Collapsed="true">
+    <Position X="41" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAQAAAAQAAA=</HashCode>
+      <FileName>compositeMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.ERR" Collapsed="true">
+    <Position X="95" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACABAwAAAJAAAAAAACAAAgAAAAAAQAAAQAAAA=</HashCode>
+      <FileName>compositeSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.MSA" Collapsed="true">
+    <Position X="97.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEAAAAAIAAAAAAAAAAAIAAAAAAAAAAAAAwAAAAA=</HashCode>
+      <FileName>compositeSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.MSH" Collapsed="true">
+    <Position X="99.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AqAgiAMAAQAMAAAEAAkBAAAAABIAUCAAAEAEAAAAAIA=</HashCode>
+      <FileName>compositeSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.EVN" Collapsed="true">
+    <Position X="90.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAICAAAAAAIAAAAAAAAAAAAAAAIAAACAAAA=</HashCode>
+      <FileName>compositeSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.PID" Collapsed="true">
+    <Position X="52.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xDABAAImBQAAFQAEIAEAIAAAABQAAggAEAAAQAKACAA=</HashCode>
+      <FileName>compositeSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.PD1" Collapsed="true">
+    <Position X="59" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUIEAAAAAAAAAAAAAQIAAAAAAAAAAAAAAEIEAACAAgI=</HashCode>
+      <FileName>compositeSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.PV1" Collapsed="true">
+    <Position X="92.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cECiIAAACAgsBEAIEEKIAWBEgAAICgBAkIGBCMBgq4A=</HashCode>
+      <FileName>compositeSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.common" Collapsed="true">
+    <Position X="102" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAQAAAAAAAAAAgAAAAAAAABAAAAAICBAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.abstractType" Collapsed="true">
+    <Position X="52.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAAAAAAAAEAAAAAAQAAAAEACAAAAAgAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.primitiveType" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.compositeType">
+    <Position X="65.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.compositeMessage">
+    <Position X="36.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.compositeField" Collapsed="true">
+    <Position X="65.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.compositeSegment">
+    <Position X="95" Y="2.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HL7Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.ID" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.IS" Collapsed="true">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.NM" Collapsed="true">
+    <Position X="20.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.ST" Collapsed="true">
+    <Position X="25.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.DT" Collapsed="true">
+    <Position X="29.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.TM" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.TN" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.TX" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.FT" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.DTM" Collapsed="true">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.SI" Collapsed="true">
+    <Position X="23" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HL7Lib.CM" Collapsed="true">
+    <Position X="27.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>primitiveType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
